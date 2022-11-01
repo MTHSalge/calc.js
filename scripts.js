@@ -35,6 +35,7 @@ document.querySelectorAll(".charKey").forEach(function (charKeyBtn) {
 // Adding "Clear" content
 document.getElementById("clear").addEventListener("click", function () {
   input.value = "";
+  result.value = "";
   input.focus();
 });
 
